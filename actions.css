@@ -1,0 +1,14 @@
+.header_haeder a:hover{
+    border-bottom: 1px solid white;
+    color: grey;
+}
+.tranding_product a:hover{
+    border-bottom: 1px solid black;
+    color: grey !important;
+}
+
+.cellulares a:hover{
+    border-bottom: 1px solid black;
+    color: grey;
+}
+

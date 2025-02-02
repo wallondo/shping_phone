@@ -1,0 +1,112 @@
+@media screen and (max-width:600px){
+    .header_nav {
+        min-height: 150px !important;
+    }
+    .header_firts_div {
+        flex-wrap: wrap !important;
+        justify-content: space-around;
+        padding: 10px 0px !important;
+        margin: 0px 0px 15px 0px;
+    }
+    .header_firts_div *{
+        border: none !important;
+    }
+    .header_firts_div > div:first-child a{
+        width: 100%;
+        text-align: center;
+    }
+    .header_firts_div > div:first-child {
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .header_firts_div > div:last-child {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .header_nav ol{
+        width: 100% !important;
+        flex-wrap: wrap;
+        min-height: 100px;
+    }
+    .header_nav ol li{
+        margin: 0px 10px;
+    }
+    .header_nav div {
+        width: 90% !important;
+        justify-content: center !important;
+    }
+    .header_nav div input{
+        width: 100% !important;
+    }
+    .header_nav div span {
+        /* right: 50px !important; */
+    }
+    .slid > div:last-child {
+     
+    }
+    .infor_middle > div{
+        width: 100% !important;
+        padding-left: 20px;
+    }
+    .slid > div:last-child .fones{
+        flex-wrap: wrap;
+    }
+
+
+    .tranding_product_first_div{
+        flex-wrap: wrap;
+    }
+    .tranding_product_first_div *{
+        margin: 5px 0px;
+    }
+    .cellulares > div:first-child {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .cellulares > div:first-child *{
+        margin: 5px 0px;
+    }
+    .offer > div{
+        width: 100% !important;
+        flex-wrap: wrap;
+        min-width: 200px !important;
+    }
+    .footer_div {
+        min-height: 70px !important;
+        flex-wrap: wrap;
+    }
+    .footer_div > div ol{
+        flex-direction: column;
+    }
+    .footer_div > div ol li{
+        margin: 5px 0px !important;
+    }
+}
+@media screen and (min-width:700px) and (max-width:905px) {
+    .destac > div {
+        width: 350px !important;
+    }
+}
+@media screen and (min-width:705px) and (max-width:799px) {
+    .destac > div {
+        width: 300px !important;
+    }
+}
+@media screen and (min-width:689px) and (max-width:705px) {
+    .destac > div {
+        width: 290px !important;
+    }
+}
+@media screen and (min-width:664px) and (max-width:688px) {
+    .destac > div {
+        width: 280px !important;
+    }
+}
+@media screen and (min-width:601px) and (max-width:664px) {
+    .destac > div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+  
+    
