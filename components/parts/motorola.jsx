@@ -64,7 +64,7 @@ export default function Motorola(params) {
                                       <h3>{item.preco}.00A0</h3>
                                       <h4>{item.entrega?"Entrega gratis":"+5% DA ENTREGA"}</h4>
                               </span>
-                              <button>Adicionar</button>
+                              <button>ver agora</button>
                               </div>
       
                               ))

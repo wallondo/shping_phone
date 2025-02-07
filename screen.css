@@ -27,6 +27,7 @@
         width: 100% !important;
         flex-wrap: wrap;
         min-height: 100px;
+        justify-content: end !important;
     }
     .header_nav ol li{
         margin: 0px 10px;
@@ -41,6 +42,13 @@
     .header_nav div span {
         /* right: 50px !important; */
     }
+    .produtos_sec1 {
+        flex-direction: column-reverse;
+    }
+    .produtos_sec1 div:first-child{
+        min-height: 300px !important;
+
+    }
     .slid > div:last-child {
      
     }
@@ -51,8 +59,14 @@
     .slid > div:last-child .fones{
         flex-wrap: wrap;
     }
-
-
+    .produtos_sec2 div:first-child ol{
+        width: 100%;
+        justify-content: start;
+        padding: 5px 0px;
+    }
+    .produtos_sec2 div:first-child ol li{
+        margin: 2px 0px;
+    }
     .tranding_product_first_div{
         flex-wrap: wrap;
     }
@@ -81,6 +95,18 @@
     .footer_div > div ol li{
         margin: 5px 0px !important;
     }
+
+    .produtos_footer div:first-child{
+        justify-content: center !important;
+    }
+    .produtos_footer nav{
+        height: 250px !important;
+    }
+
+
+
+
+
 }
 @media screen and (min-width:700px) and (max-width:905px) {
     .destac > div {

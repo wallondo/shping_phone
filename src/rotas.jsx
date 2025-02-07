@@ -6,6 +6,7 @@ import Iphone from "../components/parts/iphone";
 import Motorola from "../components/parts/motorola";
 import Infinix from "../components/parts/infinix";
 import Redmin from "../components/parts/nokia";
+import Produtos from "../components/produtos/produtos";
 export default function Routas(){
     return(
         <BrowserRouter>
@@ -16,6 +17,9 @@ export default function Routas(){
                     <Route path="motorola" element={<Motorola/>}></Route>
                     <Route path="redmin" element={<Redmin/>}></Route>
                     <Route path="infinix" element={<Infinix/>}></Route>
+                </Route>
+                <Route path="/produtos" element={<Produtos/>}>
+
                 </Route>
             </Routes>
         </BrowserRouter>

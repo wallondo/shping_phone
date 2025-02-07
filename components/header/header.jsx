@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 export default function Header(params) {
     return(<header className="header_haeder">
             <div className="header_firts_div">
@@ -22,25 +22,17 @@ export default function Header(params) {
             <nav className="header_nav">
                 <ol>
                     <li className="icon">
-                        <Link to={"/"}>
+                        <Link to={"/samsung"}>
                             <img src="/img/icon.png" alt="" />
                             SHOPING.ONLINE
                         </Link>
                     </li>
-                    <li><Link>Produdtos</Link></li>
-                    <li>
-                       Outros : 
-                    </li>
-                    <li>
-                    <li><Link>Emobiliários</Link></li>
-                    </li>
+                    <li><NavLink to={"/samsung"}>Início</NavLink></li>
+                    <li><NavLink to={"/produtos"}>Produdtos</NavLink></li>
+                    <li><Link target="_blank" to={"https://market-sooty-tau.vercel.app/"}>Emobiliários</Link></li>
                     <li><Link>Alimentos</Link></li>
                  
                 </ol>
-                <div>
-                    <input type="text"  placeholder="Pesquisar em produto : "/>
-                    <span><img src="/img/lupa.jpg" alt="" /></span>
-                </div>
             </nav>
     </header>)
 }

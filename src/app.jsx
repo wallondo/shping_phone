@@ -150,7 +150,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
                     <div>
@@ -159,7 +159,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
                     <div>
@@ -168,7 +168,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
                     <div>
@@ -177,7 +177,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
                     <div>
@@ -186,7 +186,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
                     <div>
@@ -195,7 +195,7 @@ export default function App(){
                             <h1>GALAXY S23 ULTRA LITE THE LOVE THE PRICE </h1>
                             <h3>From AO2093.000.00kz</h3>
 
-                            <button>Buy now</button>
+                            <button>ver agora </button>
                         </div>
                     </div>
             </section>

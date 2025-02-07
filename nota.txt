@@ -6,3 +6,7 @@ na pj produto tera opcoes 5 options(serão links iinternos , que mudam a paj <Ou
 No : Nossos Produtos de Tranding , lista três tipo e usa o <Outlet/>
 No : Os mehores celulares , mesma cois de acima
 Nas : Outras ofertas do Mercado só pom o passa passa
+
+
+
+https://shping-phone.vercel.app/samsung

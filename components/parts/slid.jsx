@@ -14,7 +14,7 @@ export default function Slid(params){
                 </span>
                 <p>form soppt secton 2023/02/09 to sell</p>
                 <span>
-                    <button>BUY Now</button>
+                    <button>ver agora </button>
                     <Link>Leran more</Link>
                 </span>    
                 </div>
