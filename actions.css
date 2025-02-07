@@ -16,6 +16,6 @@ button:not(.header_haeder button):hover{
     color: black !important;
 }
 button:not(.header_haeder button):active{
-    outline: 1px solid blue;
+    outline: .5px solid blue;
     color: skyblue !important;
 }

@@ -247,7 +247,6 @@ export default function App(){
                     <Outlet/>
                 </div>
             </section>
-
             <section className="offer">
                 <span>
                     <h2>Outras ofertas do Mercado</h2>
@@ -275,7 +274,6 @@ export default function App(){
                     </div>
                     <small>Compre e ganhe ofertas irresitiveis</small>
             </section>
-
             <div className="footer_div">
                 <div>
                     <h3>Contacte-me para trabalhos do genêro</h3>

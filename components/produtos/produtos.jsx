@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./produtos.css";
 import Header from "../header/header";
 import { NavLink } from "react-router-dom";
+import Middle from "./middle";
 
 
 export default function Produtos(){
@@ -599,18 +600,17 @@ export default function Produtos(){
                     </div>
             </section>
             
+            <Middle/>
+
             <div className="produtos_footer">
                 <div>
                     <article className="nos">
                             <h2>Sobre a Shoping.ONLINE</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                In necessitatibus iste pariatur, hic, magni 
-                                cum alias quaerat assumenda quae non ut?
-                                Explicabo assumenda nisi quibusdam maxime iste, unde eligendi. Sunt.
-                                In necessitatibus iste pariatur, hic, magni 
-                                cum alias quaerat assumenda quae non ut?
-                                Explicabo assumenda nisi quibusdam maxime iste, unde eligendi. Sunt.
+                            Bem-vindo à Shoping.ONLINE!
+                            Sua loja virtual de eletrônicos com os melhores produtos e marcas. Temos smartphones, notebooks, acessórios e muito mais para atender suas necessidades tecnológicas.
+                            Oferecemos compras fáceis, seguras e entregas rápidas. Nosso compromisso é garantir qualidade, preço justo e satisfação total.
+                            Aproveite nossas ofertas e transforme sua rotina com os melhores gadgets!
                             </p>
                     </article>
                     <article className="serv">
@@ -634,10 +634,10 @@ export default function Produtos(){
                             <li><NavLink>vercel.Angopraça.com.ao</NavLink></li>
                         </ol>
                         <div>
-                            <span><NavLink><img src="/img/fb.png" alt="" /> </NavLink></span>
-                            <span><NavLink><img src="/img/contact2.png" alt="" /> </NavLink></span>
-                            <span><NavLink><img src="/img/contact3.png" alt="" /> </NavLink></span>
-                            <span><NavLink><img src="/img/contact4.jpg" alt="" /> </NavLink></span>
+                            <span><NavLink target="_blank" to={"https://www.facebook.com/sadraquemelhaquinitoquinguri.jose"}><img src="/img/fb.png" alt="" /> </NavLink></span>
+                            <span><NavLink target="_blank" to={"http://wa.me/244941137038?text=Saudações! %0A Gostaria de abordar alguns pontos consigo!"}><img src="/img/contact2.png" alt="" /> </NavLink></span>
+                            <span><NavLink target="_blank" to={"mailto:quinguri01@gmail.com?subject=Saudações! %0A Gostaria de abordar alguns pontos consigo!"}><img src="/img/contact3.png" alt="" /> </NavLink></span>
+                            <span><NavLink target="_blank" to={"https://github.com/wallondo"}><img src="/img/contact4.jpg" alt="" /> </NavLink></span>
                         </div>
                     </nav>
                     <article className="contacts">

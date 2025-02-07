@@ -229,9 +229,9 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border-top: 1px solid grey;
     padding-top: 20px;
     flex-wrap: wrap;
+    background-color: rgb(173, 173, 173);
 }
 .produtos_footer h2,.produtos_footer h3{
     text-align: center;
@@ -239,8 +239,8 @@
 .copy{
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
-    padding: 5px 0px;
+    font-size: .8rem;
+    padding: 2px 0px;
     background-color: black;
     color: white !important;
 }
@@ -282,12 +282,12 @@
 .serv ol li{
     margin-top: 10px;
     text-align: center;
+    font-size: 1rem;
 }
 
 
 
 .produtos_footer nav{
-    border: 1px solid white;
     height: 300px;
     display: flex;
     padding-left: 10px;
@@ -325,7 +325,6 @@
 }
 
 .produtos_footer .contacts{
-    border: 1px solid white;
     min-height: 300px;
     width: 250px;
     display: flex;
