@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .produtos_sec1{
@@ -13,6 +14,52 @@
     justify-content: space-around;
     height: 80vh;
 }
+
+.car_show{
+    width: 95%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.car_show img{
+    width: 90%;
+    height: 90%;
+}
+
+.car_show > .bola{
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    cursor: pointer;
+
+    animation: bola 1s 2s infinite ease-in-out;
+    z-index: 3;
+    position: relative;
+}
+
+@keyframes bola{
+    from{
+        outline: 0px solid rgba(255, 0, 0, 0.514);
+    }
+    to{
+        outline: 10px solid rgba(255, 0, 0, 0.178);
+    }
+}
+
+.total_number{
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    font-weight: bold;
+}
+
+
 
 .produtos_sec1 div:first-child{
     min-height: 200px;

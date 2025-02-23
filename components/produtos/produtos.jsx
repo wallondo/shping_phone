@@ -3,6 +3,7 @@ import "./produtos.css";
 import Header from "../header/header";
 import { NavLink } from "react-router-dom";
 import Middle from "./middle";
+import Car from "./car";
 
 
 export default function Produtos(){
@@ -16,7 +17,7 @@ export default function Produtos(){
         {
             nome:"DELL LATITUDE",
             img:"/img/pc1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -26,7 +27,7 @@ export default function Produtos(){
         {
             nome:"DELL SALIM G-45",
             img:"/img/pc2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -36,7 +37,7 @@ export default function Produtos(){
         {
             nome:"HP FONT ATX",
             img:"/img/pc3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -46,7 +47,7 @@ export default function Produtos(){
         {
             nome:"SAMSUNG OPLIXS",
             img:"/img/pc4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -56,7 +57,7 @@ export default function Produtos(){
         {
             nome:"HP SLIM SCREEN ON",
             img:"/img/pc5.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -66,7 +67,7 @@ export default function Produtos(){
         {
             nome:"MAC ON SLIM",
             img:"/img/mac.png",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -76,7 +77,7 @@ export default function Produtos(){
         {
             nome:"MIX LAP-DESK",
             img:"/img/mac1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -86,7 +87,7 @@ export default function Produtos(){
         {
             nome:"HP ULTRA PLUS",
             img:"/img/pc6.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -96,7 +97,7 @@ export default function Produtos(){
         {
             nome:"HP DARK-LITE",
             img:"/img/pc7.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -106,7 +107,7 @@ export default function Produtos(){
         {
             nome:"HP COMPAC",
             img:"/img/pc8.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -116,7 +117,7 @@ export default function Produtos(){
         {
             nome:"HP G-force",
             img:"/img/pc9.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -126,7 +127,7 @@ export default function Produtos(){
         {
             nome:"HP PRO",
             img:"/img/pc10.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -138,7 +139,7 @@ export default function Produtos(){
         {
             nome:"REDMI G-force",
             img:"/img/red1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -148,7 +149,7 @@ export default function Produtos(){
         {
             nome:"REDMI NOTE",
             img:"/img/red2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -158,7 +159,7 @@ export default function Produtos(){
         {
             nome:"REDMI NOTE A20",
             img:"/img/red3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -168,7 +169,7 @@ export default function Produtos(){
         {
             nome:"S23 G-force",
             img:"/img/s1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -178,7 +179,7 @@ export default function Produtos(){
         {
             nome:"GALAXY EDJ 7",
             img:"/img/s2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -188,7 +189,7 @@ export default function Produtos(){
         {
             nome:"GALAXY EDJ NORMAL",
             img:"/img/s4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -198,7 +199,7 @@ export default function Produtos(){
         {
             nome:"A40 ULTRA",
             img:"/img/s5.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -208,7 +209,7 @@ export default function Produtos(){
         {
             nome:"INFINIX A40",
             img:"/img/infi1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -218,7 +219,7 @@ export default function Produtos(){
         {
             nome:"NOKIA 30",
             img:"/img/infi2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -228,7 +229,7 @@ export default function Produtos(){
         {
             nome:"REDMI ULTRA PLUS",
             img:"/img/infi3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -238,7 +239,7 @@ export default function Produtos(){
         {
             nome:"INFINIX ULTRA",
             img:"/img/infi4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -248,7 +249,7 @@ export default function Produtos(){
         {
             nome:"INFINIX PLUS",
             img:"/img/infi5.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -258,7 +259,7 @@ export default function Produtos(){
         {
             nome:"IPHONE PRO",
             img:"/img/iph1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -268,7 +269,7 @@ export default function Produtos(){
         {
             nome:"IPHONE 12",
             img:"/img/iph2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -278,7 +279,7 @@ export default function Produtos(){
         {
             nome:"IPHONE PRO MAX",
             img:"/img/iph3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -288,7 +289,7 @@ export default function Produtos(){
         {
             nome:"IPHONE 11",
             img:"/img/iph4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -301,7 +302,7 @@ export default function Produtos(){
         {
             nome:"HeadPhone G-LITE",
             img:"/img/head1.png",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -311,7 +312,7 @@ export default function Produtos(){
         {
             nome:"HeadPhone GAME-A",
             img:"/img/head2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -321,7 +322,7 @@ export default function Produtos(){
         {
             nome:"HeadPhone GAME-1B",
             img:"/img/head3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -331,7 +332,7 @@ export default function Produtos(){
         {
             nome:"HeadPhone ULTRA MUDE",
             img:"/img/head4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -341,7 +342,7 @@ export default function Produtos(){
         {
             nome:"HeadPhone G-force",
             img:"/img/head5.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -351,7 +352,7 @@ export default function Produtos(){
         {
             nome:"SOM POWER PLUS",
             img:"/img/head6.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -361,7 +362,7 @@ export default function Produtos(){
         {
             nome:"G-force GAME-AC",
             img:"/img/headfone2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -371,7 +372,7 @@ export default function Produtos(){
         {
             nome:"ULTRA LITE",
             img:"/img/head7.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -384,7 +385,7 @@ export default function Produtos(){
         {
             nome:"LITE AND RELAX",
             img:"/img/ear1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -394,7 +395,7 @@ export default function Produtos(){
         {
             nome:"EAR SLIM",
             img:"/img/ear2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -404,7 +405,7 @@ export default function Produtos(){
         {
             nome:"EAR ULTRA SLIM",
             img:"/img/ear3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -414,7 +415,7 @@ export default function Produtos(){
         {
             nome:"SLIM PINK",
             img:"/img/ear4.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -424,7 +425,7 @@ export default function Produtos(){
         {
             nome:"EAR G-force",
             img:"/img/ear5.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -436,7 +437,7 @@ export default function Produtos(){
         {
             nome:"SMORT WATCH EAPLE",
             img:"/img/rel1.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -446,7 +447,7 @@ export default function Produtos(){
         {
             nome:"WATCH EAPLE PINK",
             img:"/img/rel2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -456,7 +457,7 @@ export default function Produtos(){
         {
             nome:"SMORT WATCH WHITE",
             img:"/img/rel3.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -466,7 +467,7 @@ export default function Produtos(){
         {
             nome:"SMORT WATCH BLACK",
             img:"/img/rel7.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -476,7 +477,7 @@ export default function Produtos(){
         {
             nome:"SMORT WATCH SIMPLE",
             img:"/img/rel8.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -486,7 +487,7 @@ export default function Produtos(){
         {
             nome:"SMORT WATCH INFINIX",
             img:"/img/rel9.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -500,7 +501,7 @@ export default function Produtos(){
         {
             nome:"PORT GBL",
             img:"/img/col1.png",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -510,7 +511,7 @@ export default function Produtos(){
         {
             nome:"BLOOTOPH SOM",
             img:"/img/coluna.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -520,7 +521,7 @@ export default function Produtos(){
         {
             nome:"BOX SOM BLOOTOH",
             img:"/img/offer2.jpg",
-            preco:Math.round(Math.random()*1000)+".000",
+            preco:Math.round(Math.random()*1000),
             estrela:"",
             entrega:"",
             desc:"",
@@ -542,11 +543,36 @@ export default function Produtos(){
         
         setAll_produtos(po)
     }
+     const [compras,setCompras] = useState([
 
+        ])
+    const maostra_car = ()=>{
+        document.getElementById("car").classList.toggle("car_show");
+    }
+    const add_car = (id)=>{
+        console.log(id)
 
+        let p = all_produtos.filter((pr,po)=>{return pr.id==id})
+        
+       let item = compras.find(it=>it.id==id)
+       if(item){
+            console.log("tem")
+       }else{
+        console.log("não tem")
+           setCompras((compras)=>[...p,...compras])
+       }
+    }
     return(
         <div className="produtos">
             <Header/>
+               <span className="car_show">
+                    {
+                        compras.length>0? <div className="bola" onClick={maostra_car}>
+                            <span className="total_number">{compras.length}</span>
+                            <img src="/img/car.png" alt="" className="car_img"/> 
+                            </div>:""
+                    }
+               </span>
             <section className="produtos_sec1">
                     <div>
                         <h1>HEADFONE G-FORCE </h1>
@@ -563,6 +589,7 @@ export default function Produtos(){
                         </span>
                     </div>
             </section>
+               <Car cars={compras} setCompras={setCompras}/>
             <section className="produtos_sec2">
                 <div>
                     <h2>ESPLORE TODOS OS NOSSOS PRODUTOS</h2>
@@ -590,7 +617,7 @@ export default function Produtos(){
                                         <h3>394.000.00kz</h3>
                                         <h4>5 Estrela</h4>
                                         <h4>Entrega Gratuita</h4>
-                                        <button>adicionar</button>
+                                        <button onClick={()=>{add_car(pr.id)}}>adicionar</button>
                                     </li>
                                     :"")
                                 ))
